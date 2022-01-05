@@ -302,7 +302,7 @@ kurr.on('group-participants-update', async (anu) => {
 
 				teks = `🌹 Hi @${num.split('@')[0]} 👋\n🌹 Selamat Datang Di Group: ${mdata.subject}\n\n Join Pada Jam: ${time} Waktu Server`
 
-				sendButImage(anu.jid, teks, `SanzyBotz-Assistan`, img,but = [{buttonId:`donasi`, 
+				sendButImage(anu.jid, teks, `ASISTEN DIKA`, img,but = [{buttonId:`donasi`, 
 
                buttonText:{displayText: 'WELCOME'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
@@ -324,7 +324,7 @@ kurr.on('group-participants-update', async (anu) => {
 
 				teks = `Daahh @${num.split('@')[0]}\nSelamat Tinggal Di Group: ${mdata.subject}`
 
-				sendButImage(anu.jid, teks, `SanzyBotz-Assistan`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SAYONARA !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
+				sendButImage(anu.jid, teks, `ASISTEN DIKA`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SAYONARA !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
 			} else if (anu.action == 'promote') {
 
